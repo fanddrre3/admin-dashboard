@@ -15,3 +15,14 @@
 .main {
     margin-left: 140px;
 }
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.item {
+    background-color: azure;
+    border: 1px solid black;
+    text-align: center;
+}
