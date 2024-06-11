@@ -4,6 +4,7 @@
 
 .left {
     background-color: rgb(58, 166, 244);
+    margin-left: -8px;
     color: aliceblue;
 }
 
