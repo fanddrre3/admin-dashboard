@@ -22,6 +22,7 @@ ul li {
 }
 
 .main {
+    display: flex;
     background-color: rgb(232, 242, 245);
     margin-left: -10px;
 }
@@ -37,9 +38,4 @@ ul li {
     text-align: center;
     border-left: 7px solid orange;
     border-radius: 8px;
-}
-
-.moreRight {
-    display: flex;
-
 }
