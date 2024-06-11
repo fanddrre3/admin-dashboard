@@ -22,7 +22,8 @@ ul li {
 }
 
 .main {
-    background-color: rgb(220, 231, 234);
+    background-color: rgb(232, 242, 245);
+    margin-left: -10px;
 }
 
 .container {
