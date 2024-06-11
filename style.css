@@ -36,4 +36,10 @@ ul li {
     background-color: white;
     text-align: center;
     border-left: 7px solid orange;
+    border-radius: 8px;
+}
+
+.moreRight {
+    display: flex;
+
 }
