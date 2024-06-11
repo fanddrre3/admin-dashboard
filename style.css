@@ -3,28 +3,21 @@
 }
 
 .left {
-    flex: 35%;
+    background-color: rgb(58, 166, 244);
+    color: aliceblue;
 }
 
 .right {
-    flex: 65%;
+margin-left: 20px;
 }
 .sidebar {
     width: 130px;
-    position: fixed;
-    z-index: 1;
-    margin-top: 20px;
-    top: 20px;
-    left: 10px;
-    background-color: aqua;
     overflow-x: hidden;
     padding: 8px 0;
 }
-.sidebar a {
-    display: block;
-}
+
 .main {
-    margin-left: 140px;
+
 }
 
 .container {
