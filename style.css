@@ -8,14 +8,34 @@
     color: aliceblue;
 }
 
+#user-profile {
+    width: 35px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#user-profile2 {
+    width: 70px;
+    height: 80px;
+    border-radius: 50%;
+}
+
 input {
     border-radius: 9px;
 }
-.user-profile {
-    width: 100px;
-}
 
+button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
 .firstLevel {
+    display: flex;
+}
+.secondLevel {
+    display: flex;
+}
+.username {
     display: flex;
 }
 
