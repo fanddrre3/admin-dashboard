@@ -11,6 +11,13 @@
 input {
     border-radius: 9px;
 }
+.user-profile {
+    width: 100px;
+}
+
+.firstLevel {
+    display: flex;
+}
 
 a:link {
     text-decoration: none;
