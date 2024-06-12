@@ -3,14 +3,24 @@
 }
 
 .left {
-    background-color: rgb(58, 166, 244);
+    background-color: #0ea5e9;
     margin-left: -8px;
     color: aliceblue;
+}
+
+input {
+    border-radius: 9px;
+}
+
+img {
+    width: 25px;
+    height: 20px;
 }
 
 .right {
 margin-left: 20px;
 }
+
 .sidebar {
     width: 130px;
     overflow-x: hidden;
