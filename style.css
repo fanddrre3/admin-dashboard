@@ -8,6 +8,11 @@
     color: aliceblue;
 }
 
+#dashIcon {
+    width: 35px;
+    height: 40px;
+}
+
 #user-profile {
     width: 35px;
     height: 40px;
@@ -22,12 +27,16 @@
 
 input {
     border-radius: 9px;
+    background-color: rgb(232, 242, 245);
 }
 
 button {
     width: 70px;
     height: 30px;
     border-radius: 10px;
+    background-color: #0ea5e9;
+    color: white;
+    font-weight: bold;
 }
 .firstLevel {
     display: flex;
