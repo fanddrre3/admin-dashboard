@@ -28,6 +28,7 @@
 input {
     border-radius: 9px;
     background-color: rgb(232, 242, 245);
+    border: none;
 }
 
 button {
@@ -37,6 +38,7 @@ button {
     background-color: #0ea5e9;
     color: white;
     font-weight: bold;
+    border: none;
 }
 .firstLevel {
     display: flex;
