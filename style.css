@@ -1,9 +1,14 @@
+:root{
+    --main-bg-color: #cbd5e1;
+    --second-bg-color: #0ea5e9;
+}
+
 .content{
     display: flex;
 }
 
 .left {
-    background-color: #0ea5e9;
+    background-color: var(--second-bg-color);
     margin-left: -8px;
     color: aliceblue;
 }
@@ -27,7 +32,7 @@
 
 input {
     border-radius: 9px;
-    background-color: rgb(232, 242, 245);
+    background-color: var(--main-bg-color);
     border: none;
 }
 
@@ -35,7 +40,7 @@ button {
     width: 70px;
     height: 30px;
     border-radius: 10px;
-    background-color: #0ea5e9;
+    background-color: var(--second-bg-color);
     color: white;
     font-weight: bold;
     border: none;
@@ -83,7 +88,7 @@ ul li {
 
 .main {
     display: flex;
-    background-color: rgb(232, 242, 245);
+    background-color: var(--main-bg-color);
     margin-left: -10px;
 }
 
@@ -99,3 +104,12 @@ ul li {
     border-left: 7px solid orange;
     border-radius: 8px;
 }
+
+.container2 {
+    display: grid;
+}
+
+.container3 {
+    display: grid;
+}
+
