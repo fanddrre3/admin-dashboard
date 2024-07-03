@@ -1,6 +1,7 @@
 :root{
-    --main-bg-color: #cbd5e1;
+    --main-bg-color: #e2e8f0;
     --second-bg-color: #0ea5e9;
+    --text-color: white;
 }
 
 .content{
@@ -10,7 +11,7 @@
 .left {
     background-color: var(--second-bg-color);
     margin-left: -8px;
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 #dashIcon {
@@ -41,7 +42,7 @@ button {
     height: 30px;
     border-radius: 10px;
     background-color: var(--second-bg-color);
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     border: none;
 }
@@ -60,7 +61,7 @@ a:link {
 }
 
 li h3 {
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 img {
@@ -99,7 +100,7 @@ ul li {
 }
 
 .item {
-    background-color: white;
+    background-color: var(--text-color);
     text-align: center;
     border-left: 7px solid orange;
     border-radius: 8px;
