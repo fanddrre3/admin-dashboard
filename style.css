@@ -124,6 +124,19 @@ ul li {
 }
 
 .container3 {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: var(--text-color);
+    text-align: center;
+    border-left: 7px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.trendIcon {
     display: grid;
 }
 
