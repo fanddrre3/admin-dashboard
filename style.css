@@ -99,15 +99,20 @@ ul li {
     gap: 20px;
 }
 
+.container2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: var(--text-color);
+    text-align: center;
+    border-left: 7px;
+    border-radius: 8px;
+}
+
 .item {
     background-color: var(--text-color);
     text-align: center;
     border-left: 7px solid orange;
     border-radius: 8px;
-}
-
-.container2 {
-    display: grid;
 }
 
 .container3 {
