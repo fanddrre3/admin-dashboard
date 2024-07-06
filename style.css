@@ -136,7 +136,12 @@ ul li {
     padding-right: 10px;
 }
 
-.trendIcon {
-    display: grid;
+.item4 ,.item5 ,.item6 ,.item7 {
+    display: flex;
 }
 
+
+p.text {
+    display: flex;
+    flex-direction: column;
+}
